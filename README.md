@@ -3,6 +3,7 @@ Projeto que tem por finalidade colocar em pratica alguns métodos de desenvolvim
  - Orientação a Objetos
  - Arquitetura de Sistemas 
  - Enterprise Application
+ - Exemplo em Dapper
  - entre outros...
  
  
