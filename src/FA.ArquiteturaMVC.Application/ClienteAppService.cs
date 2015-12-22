@@ -53,7 +53,10 @@ namespace FA.ArquiteturaMVC.Application
 
         public ClienteViewModel ObterPorId(Guid id)
         {
-            return ClienteToViewModel(_clienteRepository.ObterPorId(id));
+            //return ClienteToViewModel(_clienteRepository.ObterPorId(id));
+
+            //Exemplo usando Dapper
+            return ClienteToViewModel(_clienteRepository.ObterPorIdReadOnly(id));
         }
 
         public IEnumerable<ClienteViewModel> ObterTodos()

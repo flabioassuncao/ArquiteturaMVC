@@ -1,4 +1,4 @@
-﻿using System.Web;
+﻿using FA.ArquiteturaMVC.CrossCutting.MVCFilters;
 using System.Web.Mvc;
 
 namespace FA.ArquiteturaMVC.UI
@@ -8,6 +8,7 @@ namespace FA.ArquiteturaMVC.UI
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new GlobalErrorHandler());
         }
     }
 }

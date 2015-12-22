@@ -258,6 +258,10 @@
       <Project>{c13d6cae-6b11-419c-86f8-e6edcaeb2cfa}</Project>
       <Name>FA.ArquiteturaMVC.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FA.ArquiteturaMVC.CrossCutting.MVCFilters\FA.ArquiteturaMVC.CrossCutting.MVCFilters.csproj">
+      <Project>{3378575d-6d6c-44cb-9ccc-3b0ab06aadf6}</Project>
+      <Name>FA.ArquiteturaMVC.CrossCutting.MVCFilters</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
