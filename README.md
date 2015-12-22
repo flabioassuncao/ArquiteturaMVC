@@ -7,6 +7,7 @@ Projeto que tem por finalidade colocar em pratica alguns métodos de desenvolvim
  - Arquitetura de Sistemas 
  - Enterprise Application
  - Exemplo em Dapper
+ - WebAPI
  - entre outros...
  
  
