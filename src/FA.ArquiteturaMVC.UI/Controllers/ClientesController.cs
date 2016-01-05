@@ -2,13 +2,18 @@
 using System.Net;
 using System.Web.Mvc;
 using FA.ArquiteturaMVC.Application.ViewModels;
-using FA.ArquiteturaMVC.Application;
+using FA.ArquiteturaMVC.Application.Interfaces;
 
 namespace FA.ArquiteturaMVC.UI.Controllers
 {
     public class ClientesController : Controller
     {
-        private readonly ClienteAppService _clienteAppService = new ClienteAppService();
+        private readonly IClienteAppService _clienteAppService;
+
+        public ClientesController(IClienteAppService clienteAppService)
+        {
+            _clienteAppService = clienteAppService;
+        }
 
         // GET: Clientes
         public ActionResult Index()
