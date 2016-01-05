@@ -1,10 +1,7 @@
-﻿using FA.ArquiteturaMVC.Application;
+﻿using FA.ArquiteturaMVC.Application.Interfaces;
 using FA.ArquiteturaMVC.Application.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace FA.ArquiteturaMVC.Service.REST.WebAPI.Controllers
@@ -12,7 +9,12 @@ namespace FA.ArquiteturaMVC.Service.REST.WebAPI.Controllers
     public class ClientesController : ApiController
     {
 
-        private readonly ClienteAppService _clienteAppService = new ClienteAppService();
+        private readonly IClienteAppService _clienteAppService;
+
+        public ClientesController(IClienteAppService clienteAppService)
+        {
+            _clienteAppService = clienteAppService;
+        }
 
         // GET: api/Clientes
         public IEnumerable<ClienteViewModel> Get()

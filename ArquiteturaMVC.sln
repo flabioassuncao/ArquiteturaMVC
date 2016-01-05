@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{18E6172F-06FD-4D1F-BB7D-61E3F1FFD5D3}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{F2C908E7-F4D8-441D-931E-D59EE8C48D20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FA.ArquiteturaMVC.Service.REST.WebAPI", "src\FA.ArquiteturaMVC.Service.REST.WebAPI\FA.ArquiteturaMVC.Service.REST.WebAPI.csproj", "{27EFD7E7-CB6D-497E-9C00-898AEA827DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FA.ArquiteturaMVC.CrossCuting.IoC", "src\FA.ArquiteturaMVC.CrossCuting.IoC\FA.ArquiteturaMVC.CrossCuting.IoC.csproj", "{C68012B2-67F1-4FF1-BDEC-DB77188D2364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{27EFD7E7-CB6D-497E-9C00-898AEA827DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EFD7E7-CB6D-497E-9C00-898AEA827DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EFD7E7-CB6D-497E-9C00-898AEA827DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68012B2-67F1-4FF1-BDEC-DB77188D2364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68012B2-67F1-4FF1-BDEC-DB77188D2364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68012B2-67F1-4FF1-BDEC-DB77188D2364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68012B2-67F1-4FF1-BDEC-DB77188D2364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +78,6 @@ Global
 		{90FBCD5C-C3EA-4B76-A000-B4C54869E361} = {C0607257-91DE-4912-8E66-6F85BD2A1A88}
 		{3378575D-6D6C-44CB-9CCC-3B0AB06AADF6} = {90FBCD5C-C3EA-4B76-A000-B4C54869E361}
 		{27EFD7E7-CB6D-497E-9C00-898AEA827DFE} = {F2C908E7-F4D8-441D-931E-D59EE8C48D20}
+		{C68012B2-67F1-4FF1-BDEC-DB77188D2364} = {90FBCD5C-C3EA-4B76-A000-B4C54869E361}
 	EndGlobalSection
 EndGlobal
