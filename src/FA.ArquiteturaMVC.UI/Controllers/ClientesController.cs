@@ -24,6 +24,7 @@ namespace FA.ArquiteturaMVC.UI.Controllers
         // GET: Clientes/Details/5
         public ActionResult Details(Guid? id)
         {
+            //add linha para teste
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
